@@ -1,1 +1,4 @@
 flask
+markdown
+scikit-learn
+pandas
