@@ -67,12 +67,12 @@ Aqui estão alguns casos de teste com links diretos que você pode usar para tes
 - Consulta: `"action-packed adventure"`
 - Comentário: Buscar por `"action-packed adventure"` retorna 10 filmes relevantes que se enquadram nos gêneros de ação e aventura.
 
-1. Um Teste Que Retorna Mais de 1, mas Menos de 10 Resultados
+2. Um Teste Que Retorna Mais de 1, mas Menos de 10 Resultados
 
 - Consulta: `"romantic musical set in the 1980s"`
 - Comentário: Buscar por `"romantic musical set in the 1980s"` retorna um conjunto específico de filmes, provavelmente entre 2 e 9, pois é uma consulta mais nichada.
 
-1. Um Teste Que Retorna Algo Não Óbvio
+3. Um Teste Que Retorna Algo Não Óbvio
 
 - Consulta: `"cyberpunk detective noir"`
 - Comentário: Esta consulta pode retornar um resultado não óbvio, como um thriller de ficção científica que se encaixa no clima de `"cyberpunk detective noir"`, mesmo que essas palavras exatas não estejam na descrição do enredo. A relevância vem dos elementos temáticos, em vez de correspondências diretas de palavras-chave.
