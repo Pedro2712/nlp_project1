@@ -21,15 +21,21 @@ pip install -r requirements.txt
 3. Baixe o dataset:
 
 - Coloque o arquivo do dataset (Movies_Reviews_modified_version1.csv) no diretório raiz do projeto.
-Como Executar
-Depois de instalar as dependências, você pode executar o servidor Flask:
+
+Depois de instalar as dependências, rode o preProcessing.py para tratar os dados do arquivo csv:
+
+````bash
+python preProcessing.py
+````
+
+Com a criação do Movies_Reviews_modified_version2.csv pode executar o servidor Flask:
 
 ### Como Executar
 
 ```bash
 python app.py
 ```
-O servidor será iniciado em http://localhost:2712.
+O servidor será iniciado em http://10.103.0.28:2712.
 
 ### Como Funciona
 #### Funcionalidade Principal
@@ -44,7 +50,7 @@ A API utiliza a vetorização TF-IDF (Term Frequency-Inverse Document Frequency)
 Exemplo:
 
 ```bash
-curl "http://localhost:2712/query?query=filme+de+super-herói+com+elementos+de+comédia"
+curl "http://10.103.0.28:2712/query?query=action-packed adventure"
 ```
 
 ### Fonte de Dados
